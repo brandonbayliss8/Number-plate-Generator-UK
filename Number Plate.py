@@ -1,0 +1,17 @@
+from random import randint
+upperCaseLetter=chr(randint(65,90)) #Generate a random Uppercase letter (based on ASCII code)
+upperCaseLetter1=chr(randint(65,90))
+upperCaseLetter2=chr(randint(65,90))
+upperCaseLetter3=chr(randint(65,90))
+upperCaseLetter4=chr(randint(65,90))
+Number=chr(randint(49,57)) 
+Number1=chr(randint(49,57)) 
+
+print("Random Letter: " + upperCaseLetter)
+print("Random Letter: " + upperCaseLetter1)
+print("Random Number: " + Number)
+print("Random Number: " + Number1)
+print("Random Letter: " + upperCaseLetter2)
+print("Random Letter: " + upperCaseLetter3)
+print("Random Letter: " + upperCaseLetter4)
+print("Numberplate : " + upperCaseLetter + upperCaseLetter1 + Number + Number1 + upperCaseLetter2 + upperCaseLetter3 + upperCaseLetter4)
